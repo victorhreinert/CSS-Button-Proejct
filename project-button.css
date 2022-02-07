@@ -22,3 +22,16 @@ button{
     /*tamanho da fonte*/
     font-size: 1em;
 }
+/*cursor do mouse passando em cima - hover*/
+button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    /* adiciona efeitos de sombra em torno do quadro de um elemento*/
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+     /*mover o botão para cima com o elemento transform   */
+     /*translateY negativo irá fazer subir o botão.  */
+    transform: translateY(-0.25em);
+
+
+
+}
