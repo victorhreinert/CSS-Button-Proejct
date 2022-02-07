@@ -1,0 +1,9 @@
+body {
+    /* flexbox para centralizar, align-items para */
+    display:
+     flex;
+    align-items: center;
+    /*As caixas de margem dos itens flex são centralizados ao longo da linha do eixo*/
+    justify-content: center;
+    height: 100vh;
+}
