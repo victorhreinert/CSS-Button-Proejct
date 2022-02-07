@@ -1,9 +1,24 @@
 body {
-    /* flexbox para centralizar, align-items para */
+    /* flexbox para aliamento */
     display:
      flex;
     align-items: center;
     /*As caixas de margem dos itens flex são centralizados ao longo da linha do eixo*/
     justify-content: center;
+    /*define como o navegador distribui espaço entre e ao redor de itens de conteúdo 
+    ao longo do eixo principal de um contêiner*/
     height: 100vh;
+    background-color: #151b29;
+}
+
+button{
+    /*remover cor padão de fundo*/
+    background: none;
+    color:#ffa260;
+    /*borda*/
+    border: 2px solid;
+    /*espaciamento interno*/
+    padding: 1em 2em;
+    /*tamanho da fonte*/
+    font-size: 1em;
 }
