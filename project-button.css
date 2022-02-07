@@ -21,6 +21,10 @@ button{
     padding: 1em 2em;
     /*tamanho da fonte*/
     font-size: 1em;
+    /* Ela permite definir a transição entre dois estados de um elemento */
+    /* selecionei quais os elementos e eventos quero que aconteça a transição */
+    /* SEM ENCOMODO COM FUTURAS ESTILIZAÇÕES COM TRANSITION. */
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
 }
 /*cursor do mouse passando em cima - hover*/
 button:hover{
@@ -31,6 +35,7 @@ button:hover{
      /*mover o botão para cima com o elemento transform   */
      /*translateY negativo irá fazer subir o botão.  */
     transform: translateY(-0.25em);
+    
 
 
 
