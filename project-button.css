@@ -35,6 +35,8 @@ button:hover{
      /*mover o botão para cima com o elemento transform   */
      /*translateY negativo irá fazer subir o botão.  */
     transform: translateY(-0.25em);
+    /*mudando para outro ponteiro quando o hover acontece.*/
+    cursor: pointer;
     
 
 
